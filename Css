@@ -1,0 +1,35 @@
+body {
+  background: #111;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+#gun {
+  font-size: 60px;
+  margin: 20px;
+}
+
+.item {
+  font-size: 40px;
+  display: inline-block;
+  margin: 10px;
+  opacity: .3;
+  cursor: not-allowed;
+  transition: .2s;
+}
+
+.item.enabled {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.item.enabled:hover {
+  transform: scale(1.2);
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
