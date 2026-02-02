@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buckshot Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Buckshot Web (Browser Edition)</h1>
+
+  <div id="game">
+    <div id="status"></div>
+
+    <div id="players">
+      <div>You ❤️: <span id="playerHP">3</span> HP</div>
+      <div>Dealer 🤖: <span id="dealerHP">3</span> HP</div>
+    </div>
+
+    <div id="gun">🔫</div>
+
+    <div id="items">
+      <div class="item" data-item="peek">🔍</div>
+      <div class="item" data-item="heal">💊</div>
+      <div class="item" data-item="skip">⏭️</div>
+    </div>
+
+    <button id="shootSelf">Shoot Yourself</button>
+    <button id="shootDealer">Shoot Dealer</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
